@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+body {
+	 background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+	 background-size: cover;
+}
+#wrapper nav div a {
+	margin-top: 5px;
+}
+#header {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+#header h4 {
+	font-weight: 200;
+	margin-bottom: 2rem;
+}
+.intro {
+	margin-bottom: 0.5rem;
+}
+#heart {
+	margin-top: 2rem;
+}
+/* F O R M */
+.form {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+input[type=text]:not(.browser-default) {
+	border-bottom: 1px solid #e1f5fe;
+}
+  /* label color */
+   .input-field label {
+     color: #e1f5fe;
+   }
+   .input-field input[type=text] {
+   	color: #e1f5fe;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #e1f5fe !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #e1f5fe !important;
+     box-shadow: 0 1px 0 0 #e1f5fe !important;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #e1f5fe !important;
+     box-shadow: 0 1px 0 0 #e1f5fe !important;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #e1f5fe;
+     box-shadow: 0 1px 0 0 #e1f5fe;
+   }
+   textarea.materialize-textarea.valid {
+     border-bottom: 1px solid #e1f5fe !important;
+     box-shadow: 0 1px 0 0 #e1f5fe !important;
+   }
+   textarea.materialize-textarea:focus {
+     border-bottom: 1px solid #e1f5fe !important;
+     box-shadow: 0 1px 0 0 #e1f5fe !important;
+   }
+   textarea.materialize-textarea:focus + label {
+     color: #e1f5fe !important;
+   }
+   textarea.materialize-textarea {
+   	 border-bottom: 1px solid #e1f5fe;
+   	 color: #e1f5fe;
+   }
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
+    border: 2px solid #e1f5fe;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+    background-color: #e1f5fe;
+}
+[type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after {
+    border: 2px solid #e1f5fe;
+}
+/*    icon prefix focus color
+   .input-field .prefix.active {
+     color: #e1f5fe !important;
+   } */
+#btnSub {
+	background-color: #29b6f6 !important;
+}
+
+/* F O O T E R */
+.page-footer {
+	background-color: #f64f59 !important;
+}
+#bottom-logo {
+   width: 40px;
+}
+#bottom-logo-section {
+	margin-bottom: 1.5rem;
+}
+#btm-logo {
+	margin-right: 5px;
+}
+#copyright {
+	margin-bottom: 3rem;
+}
